@@ -1,6 +1,7 @@
 @echo off
 
 REM App Environment Variables
+NODE_ENV=production
 set APP_PORT=8080
 set APP_JWT_SECRET=jiacheng-todo-list
 

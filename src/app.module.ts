@@ -32,7 +32,6 @@ const genEnvFIlePath = () => {
           database: configService.get('DB_DATABASE'),
           entities: [__dirname + '/**/*.entity{.ts,.js}'],
           synchronize: process.env.NODE_ENV !== 'production',
-          migrations: [__dirname + '/migrations/**/*{.ts,.js}'],
         };
       },
     }),
