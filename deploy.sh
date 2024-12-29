@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # App Environment Variables
+export NODE_ENV=production
 export APP_PORT=8080
 export APP_JWT_SECRET=jiacheng-todo-list
 
@@ -17,6 +18,4 @@ export REDIS_PORT=6379
 export REDIS_PASSWORD=123456
 export REDIS_DB=0
 
-# 切换到 docker-compose.yml 所在目录并启动 Docker Compose
-cd ..
 docker-compose up -d
